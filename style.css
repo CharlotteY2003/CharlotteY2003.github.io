@@ -68,13 +68,26 @@ a:hover
   margin-left: 3vw;
 }
 
-.content-about
+.content-resume
 {
-  font-size: 3.5vh;
-  margin-left: 3vw;
-  margin-right: 3vw;
-  margin-bottom: 4vh;
+ 
+  width: 100vw;
+  background-image: url('https://img.icons8.com/ios/452/open-resume.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
   
+}
+
+.container-resume
+{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  height: 10vh;
 }
 
 .projects
