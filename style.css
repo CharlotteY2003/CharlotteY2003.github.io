@@ -1,0 +1,302 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.title
+{
+  font-size: 10vh;
+  text-align: center;
+}
+
+.topnav
+{
+  text-align: center;
+  font-size: 4vh;
+  margin-bottom: 3vh;
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  margin-right: 1vw;
+}
+
+a:hover
+{
+  color: #6b705c;
+}
+
+
+.about
+{
+  border: .30vw solid;
+  margin-bottom: 5vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  text-align: center;
+  height: 25vh;
+  line-height: 24vh;
+  font-size: 8vh;
+  background-color: #b6cb9e;
+}
+
+.contain-about
+{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  height: auto;
+  
+}
+
+.projtext-six
+{
+  height: 70vh;
+}
+
+
+.caption-about
+{
+  font-size: 9vh;
+  margin-left: 3vw;
+}
+
+.content-about
+{
+  font-size: 3.5vh;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-bottom: 4vh;
+  
+}
+
+.projects
+{
+  text-align: center;
+  border: .30vw solid;
+  margin-bottom: 5vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  height: 25vh;
+  line-height: 24vh;
+  font-size: 8vh;
+  background-color: #92b4a7;
+}
+
+.contain-project
+{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  height: auto;
+}
+
+.projpho-one
+{
+  background: url('https://i.imgur.com/LhPWRrT.jpg');
+  background-size: contain;
+  background-position: center;
+  height: auto;
+  margin-right: 8vw;
+  width: 50%;
+  background-repeat: no-repeat;
+  
+}
+.projpho-two
+{
+  background: url('https://i.imgur.com/Y0CraMi.png');
+  background-size: contain;
+  background-position: center;
+  height: 50vh;
+  margin-left: 8vw;
+  
+  width: 50%;
+  background-repeat: no-repeat;
+}
+
+.projpho-six
+{
+  background: url('https://miro.medium.com/max/1200/1*LnQ5sRu-tJmlvRWmDsdSvw.gif');
+  background-size: contain;
+  background-position: center;
+  height: 50vh;
+  margin-right: 8vw;
+  background-repeat: no-repeat;
+  width: 50%;
+}
+
+.projpho-three
+{
+  background: url('https://i.imgur.com/QE8jXli.png');
+  background-size: contain;
+  background-position: center;
+  height: 50vh;
+  margin-right: 8vw;
+  width: 50%;
+  background-repeat: no-repeat;
+}
+
+.projtext
+{
+  font-size: 3.5vh;
+  height: auto;
+  width: 50%;
+  padding-left: 2vw;
+  word-wrap: break-word;
+}
+
+
+.projpho-four
+{
+  background: url('https://i.imgur.com/EdHWRTw.png');
+  background-size: contain;
+  background-position: center;
+  height: 50vh;
+  margin-left: 8vw;
+  width: 50%;
+  background-repeat: no-repeat;
+}
+
+.projpho-five
+{
+  background: url('https://i.imgur.com/YaLeHBl.png');
+  background-size: contain;
+  background-position: center;
+  height: 50vh;
+  margin-right: 8vw;
+  width: 50%;
+  background-repeat: no-repeat;
+}
+
+.caption-project
+{
+  font-size: 9vh;
+  margin-left: 3vw;
+}
+
+.content-project
+{
+  font-size: 5vh;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-bottom: 4vh;
+  text-align: center;
+}
+
+
+
+.awards
+{
+  border: .30vw solid;
+  margin-bottom: 1vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  text-align: center;
+  height: 25vh;
+  line-height: 24vh;
+  font-size: 8vh;
+  background-color: #8c8a93;
+}
+
+.content-award
+{
+  font-size: 5vh;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-bottom: 4vh;
+}
+
+
+.resume
+{
+  text-align: center;
+  border: .30vw solid;
+  margin-bottom: 5vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  height: 25vh;
+  line-height: 24vh;
+  font-size: 8vh;
+  background-color: #81667a;
+}
+
+
+.contact
+{
+  text-align: center;
+  border: .30vw solid;
+  margin-bottom: 5vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  height: 25vh;
+  line-height: 24vh;
+  font-size: 8vh;
+  background-color: #6b9080;
+}
+
+
+.container-contact
+{
+  height: 15vh;
+  margin-bottom: 2vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.med-link
+{
+  height: 10vh;
+  width: 5vw;
+  background-image: url('https://img.flaticon.com/icons/png/512/174/174857.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 2vw;
+  transform: scale(1.3);
+}
+
+.med-git
+{
+  height: 10vh;
+  width: 5vw;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png');
+  
+}
+
+
+ul
+{
+  font-size: 3vh;
+  margin-bottom: 2vh;
+}
+
+
+
+
+
+
+.award-container
+{
+  display: flex;
+  flex-direction: row;
+  height: 30vh;
+  margin-bottom: 2vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
