@@ -1,5 +1,6 @@
 body{
-  font-family: 'Poppins', sans-serif;
+  /*font-family: 'Poppins', sans-serif; */
+  font-family: "Arimo", sans-serif;
 }
 
 html {
@@ -8,7 +9,7 @@ html {
 
 .title
 {
-  font-size: 10vh;
+  font-size: 8vh;
   text-align: center;
 }
 
@@ -16,7 +17,7 @@ html {
 {
   text-align: center;
   font-size: 4vh;
-  margin-bottom: 3vh;
+  margin-bottom: 10vh;
 }
 
 a{
@@ -34,31 +35,67 @@ a:hover
 
 .about
 {
-  border: .30vw solid;
-  margin-bottom: 5vh;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  text-align: center;
-  height: 25vh;
-  line-height: 24vh;
-  font-size: 8vh;
-  background-color: #b6cb9e;
+  /*border: .30vw solid; */
+  /* margin-bottom: 2vh;
+  margin-left: 10vw; */
+  /* margin-right: 10vw; */
+  /*text-align: center;*/
+  /* height: 7vh; */
+  /*line-height: 24vh; */
+  font-size: 5vh;
+  /*background-color: #b6cb9e;*/
+  text-decoration-line: underline;
 }
 
 .contain-about
 {
   display: flex;
   flex-direction: row;
-  margin-bottom: 5vh;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  height: auto;
+  gap: 5%;
+  margin-bottom: 10vh;
+  margin-left: 15%;
+  margin-right: 15%;
+  align-items: stretch;
   
 }
 
-.projtext-six
+.experience
+{
+  text-decoration-line: underline;
+  margin-bottom: 2vh;
+  margin-left: 15%;
+  font-size: 5vh;
+}
+
+.experience-container {
+  margin-left: 15%;
+  margin-right: 15%;
+  display:flex;
+  flex-direction: column;
+  font-size: 2.5vh;
+}
+
+.inner-points {
+  font-size: 2vh;
+  margin-left: 10%;
+}
+
+#ip1 {
+  margin-top: 1%;
+}
+
+.aip {
+  font-size: 1.75vh;
+  margin-left: 15%;
+}
+
+/* .projtext-six
 {
   height: 70vh;
+} */
+
+.one {
+  animation: fadeInRight 1s;
 }
 
 
@@ -84,10 +121,11 @@ a:hover
 {
   display: flex;
   flex-direction: row;
-  margin-bottom: 5vh;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  height: 10vh;
+  height: 100vh;
+  width: 50vw;
+  margin-bottom: 10vh;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .projects
@@ -111,19 +149,47 @@ a:hover
   margin-left: 10vw;
   margin-right: 10vw;
   height: auto;
+  width: 90vw;
+}
+
+.at-container {
+  display:flex;
+  flex-direction: column;
+  gap: 7%;
+}
+
+.about-text {
+  font-size: 2.5vh;
 }
 
 .projpho-one
 {
-  background: url('https://i.imgur.com/LhPWRrT.jpg');
-  background-size: contain;
-  background-position: center;
-  height: auto;
-  margin-right: 8vw;
-  width: 50%;
+  border: .30vw solid;
+  flex: 1 0 30%;
+  background: url('pfp.jpg');
+  width: auto;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  aspect-ratio: 1/1;
   
 }
+
+.social-media-bar {
+  display: flex;
+  flex-direction: row;
+  border: .1vw solid;
+  padding: 1%;
+  background-color: #e3d1ed;
+  width: fit-content;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.fa {
+  font-size: 4vh;
+}
+
 .projpho-two
 {
   background: url('https://i.imgur.com/Y0CraMi.png');
@@ -138,13 +204,14 @@ a:hover
 
 .projpho-six
 {
-  background: url('https://miro.medium.com/max/1200/1*LnQ5sRu-tJmlvRWmDsdSvw.gif');
+  background: url('https://imgur.com/un9qEQL.png');
   background-size: contain;
   background-position: center;
   height: 50vh;
   margin-right: 8vw;
   background-repeat: no-repeat;
   width: 50%;
+  animation: fadeInRight 1s;
 }
 
 .projpho-three
@@ -165,6 +232,25 @@ a:hover
   width: 50%;
   padding-left: 2vw;
   word-wrap: break-word;
+  display: inline-block;
+}
+
+@keyframes fadeInRight {
+  0% {
+    transform: translateX(30vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  0% {
+    transform: translateX(-30vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 
@@ -231,29 +317,34 @@ a:hover
 
 .resume
 {
-  text-align: center;
-  border: .30vw solid;
-  margin-bottom: 5vh;
-  margin-left: 10vw;
-  margin-right: 10vw;
+  /* text-align: center;
+  border: .30vw solid; */
+  /* margin-bottom: 5vh;
+  margin-left: 10vw; */
+  /* margin-right: 10vw;
   height: 25vh;
-  line-height: 24vh;
-  font-size: 8vh;
-  background-color: #81667a;
+  line-height: 24vh; */
+  /* font-size: 5vh; */
+  /* background-color: #81667a; */
+  text-decoration-line: underline;
+  margin-top: 10vh;
+  margin-bottom: 3vh;
+  margin-left: 15%;
+  font-size: 5vh;
 }
 
 
 .contact
 {
-  text-align: center;
-  border: .30vw solid;
+  /* text-align: center;
+  border: .30vw solid; */
   margin-bottom: 5vh;
   margin-left: 10vw;
-  margin-right: 10vw;
+  /* margin-right: 10vw;
   height: 25vh;
-  line-height: 24vh;
-  font-size: 8vh;
-  background-color: #6b9080;
+  line-height: 24vh; */
+  font-size: 5vh;
+  /* background-color: #6b9080; */
 }
 
 
@@ -273,7 +364,7 @@ a:hover
 {
   height: 10vh;
   width: 5vw;
-  background-image: url('https://img.flaticon.com/icons/png/512/174/174857.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF');
+  background-image: url('LI-In-Bug.png');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -312,4 +403,29 @@ ul
   margin-bottom: 2vh;
   margin-left: 10vw;
   margin-right: 10vw;
+}
+
+.left-arrow
+{
+  background: url('https://cdn-icons-png.flaticon.com/512/271/271220.png');
+  background-size: contain;
+  background-position: center;
+  height: auto;
+  margin-right: 8vw;
+  width: 10%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.right-arrow
+{
+  background: url('https://cdn-icons-png.flaticon.com/512/32/32213.png');
+  background-size: contain;
+  background-position: center;
+  height: auto;
+  margin-right: 8vw;
+  margin-left: 7vw;
+  width: 10%;
+  background-repeat: no-repeat;
+  cursor: pointer;
 }
